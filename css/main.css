@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", "sans-serif";
+  font-size: 18px;
+}
+.conatainer {
+  margin: 20px auto;
+  width: 1200px;
+}
+.conatainer .color-switcher {
+  list-style: none;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.conatainer .color-switcher li {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  display: inline-block;
+}
+.conatainer .color-switcher li:first-child {
+  background-color: #c0392b;
+}
+.conatainer .color-switcher li:nth-child(2) {
+  background-color: #16a085;
+}
+.conatainer .color-switcher li:nth-child(3) {
+  background-color: #8e44ad;
+}
+.conatainer .color-switcher li:nth-child(4) {
+  background-color: #2c3e50;
+}
+
+.red .conatainer h3 {
+  color: #c0392b;
+}
+.red .conatainer div {
+  background-color: #c0392b;
+  padding: 30px;
+  color: #fff;
+}
+.green .conatainer h3 {
+  color: #16a085;
+}
+.green .conatainer div {
+  background-color: #16a085;
+  padding: 30px;
+  color: #fff;
+}
+.purple .conatainer h3 {
+  color: #8e44ad;
+}
+.purple .conatainer div {
+  background-color: #8e44ad;
+  padding: 30px;
+  color: #fff;
+}
+.black .conatainer h3 {
+  color: #2c3e50;
+}
+.black .conatainer div {
+  background-color: #2c3e50;
+  padding: 30px;
+  color: #fff;
+}
